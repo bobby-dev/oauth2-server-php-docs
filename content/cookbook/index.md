@@ -93,7 +93,7 @@ INSERT INTO oauth_clients (client_id, client_secret, redirect_uri) VALUES ("test
 Now run the following from the command line:
 
 ```text
-curl -u testclient:testpass http://localhost/token.php -d 'grant_type=client_credentials'
+curl -u testclient:testpass http://localhost/token.php -d grant_type=client_credentials
 ```
 
 > Note: http://localhost/token.php assumes you have the file `token.php` on your local machine, and you have
