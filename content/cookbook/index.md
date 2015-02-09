@@ -127,7 +127,7 @@ echo json_encode(array('success' => true, 'message' => 'You accessed my APIs!'))
 Now run the following from the command line:
 
 ```text
-curl http://localhost/resource.php -d 'access_token=YOUR_TOKEN'
+curl http://localhost/resource.php -d access_token=YOUR_TOKEN
 ```
 
 > Note: Use the value returned in "access_token" from the previous step in place of YOUR_TOKEN
